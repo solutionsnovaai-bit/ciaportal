@@ -7,70 +7,70 @@ const AGENTS = [
   {
     id: 1,
     emoji: "🏋️",
-    name: "Fitness & Saúde",
-    tag: "Saúde",
-    desc: "Conteúdo especializado para personal trainers, nutricionistas e marcas fitness.",
-    gemUrl: null,
+    name: "Fitness & Personal",
+    tag: "Fitness",
+    desc: "Conteúdo especializado para personal trainers e marcas fitness.",
+    gemUrl: "https://gemini.google.com/gem/1a5p9Ihz8KRrPz8nm3PZWjylUg3UcmqGm?usp=sharing",
     contentTypes: [
-      { icon: "📸", name: "Reels & Stories", desc: "Roteiros prontos para vídeos curtos de treino e nutrição." },
-      { icon: "✍️", name: "Legendas", desc: "Copies engajadores para posts de fitness e bem-estar." },
+      { icon: "📸", name: "Reels & Stories", desc: "Roteiros prontos para vídeos curtos de treino." },
+      { icon: "✍️", name: "Legendas", desc: "Copies engajadores para posts de fitness." },
       { icon: "🧵", name: "Carrossel", desc: "Estrutura de slides para educação em saúde." },
       { icon: "📧", name: "Email Marketing", desc: "Sequências de nutrição para leads e clientes." },
-      { icon: "📝", name: "Blog / SEO", desc: "Artigos otimizados sobre treino, dieta e hábitos." },
+      { icon: "📝", name: "Blog / SEO", desc: "Artigos otimizados sobre treino e hábitos." },
     ],
   },
   {
     id: 2,
-    emoji: "💰",
-    name: "Finanças Pessoais",
-    tag: "Finanças",
-    desc: "Agente para coaches financeiros, consultores e criadores de conteúdo sobre dinheiro.",
-    gemUrl: null,
+    emoji: "🥗",
+    name: "Nutricionistas",
+    tag: "Nutrição",
+    desc: "Agente para nutricionistas que querem crescer nas redes e atrair pacientes.",
+    gemUrl: "https://gemini.google.com/gem/1rDtwK_Tvn4z7p5_mLOxm3rt3JaGRVaG-?usp=sharing",
     contentTypes: [
-      { icon: "📸", name: "Reels & Stories", desc: "Dicas rápidas de investimento e finanças em vídeo." },
-      { icon: "✍️", name: "Legendas", desc: "Copies que educam e geram autoridade financeira." },
-      { icon: "🧵", name: "Carrossel", desc: "Passo a passo de organização financeira em slides." },
-      { icon: "📧", name: "Email Marketing", desc: "Sequências para vender cursos ou consultorias." },
-      { icon: "📝", name: "Blog / SEO", desc: "Artigos sobre investimentos, orçamento e renda extra." },
+      { icon: "📸", name: "Reels & Stories", desc: "Dicas rápidas de alimentação e receitas saudáveis." },
+      { icon: "✍️", name: "Legendas", desc: "Copies educativos que geram autoridade." },
+      { icon: "🧵", name: "Carrossel", desc: "Guias nutricionais em formato de slides." },
+      { icon: "📧", name: "Email Marketing", desc: "Sequências para captação e fidelização de pacientes." },
+      { icon: "📝", name: "Blog / SEO", desc: "Artigos sobre dieta, saúde e alimentação." },
     ],
   },
   {
     id: 3,
-    emoji: "🧘",
-    name: "Bem-estar & Mindset",
-    tag: "Mindset",
-    desc: "Para coaches de vida, psicólogos e criadores de conteúdo sobre autoconhecimento.",
-    gemUrl: null,
+    emoji: "🧠",
+    name: "Psicólogos",
+    tag: "Psicologia",
+    desc: "Para psicólogos e terapeutas que querem gerar autoridade e atrair clientes online.",
+    gemUrl: "https://gemini.google.com/gem/1dRIzP0GodxLF2jJFx_iLtVwb6o3p7TSK?usp=sharing",
     contentTypes: [
-      { icon: "📸", name: "Reels & Stories", desc: "Reflexões e práticas de mindfulness em vídeo." },
-      { icon: "✍️", name: "Legendas", desc: "Textos inspiradores que geram conexão emocional." },
-      { icon: "🧵", name: "Carrossel", desc: "Técnicas de meditação, ansiedade e produtividade." },
-      { icon: "📧", name: "Email Marketing", desc: "Emails motivacionais e de venda de programas." },
-      { icon: "📝", name: "Blog / SEO", desc: "Artigos sobre saúde mental, autoestima e hábitos." },
+      { icon: "📸", name: "Reels & Stories", desc: "Reflexões e dicas de saúde mental em vídeo." },
+      { icon: "✍️", name: "Legendas", desc: "Textos que geram conexão emocional e autoridade." },
+      { icon: "🧵", name: "Carrossel", desc: "Técnicas de autoconhecimento e bem-estar." },
+      { icon: "📧", name: "Email Marketing", desc: "Emails de captação e nutrição de leads." },
+      { icon: "📝", name: "Blog / SEO", desc: "Artigos sobre saúde mental e autoestima." },
     ],
   },
   {
     id: 4,
     emoji: "🍕",
-    name: "Gastronomia & Food",
+    name: "Restaurantes",
     tag: "Gastronomia",
-    desc: "Agente para chefs, restaurantes, influencers de culinária e food bloggers.",
-    gemUrl: null,
+    desc: "Agente para restaurantes, chefs e food businesses que vendem pela internet.",
+    gemUrl: "https://gemini.google.com/gem/17bTmMW2dZuxyFDaW36zc4O72VthswdSN?usp=sharing",
     contentTypes: [
-      { icon: "📸", name: "Reels & Stories", desc: "Roteiros de receitas e bastidores de cozinha." },
-      { icon: "✍️", name: "Legendas", desc: "Descrições irresistíveis de pratos e receitas." },
-      { icon: "🧵", name: "Carrossel", desc: "Receitas passo a passo em formato de slides." },
-      { icon: "📧", name: "Email Marketing", desc: "Newsletters de receitas e promoções de restaurante." },
-      { icon: "📝", name: "Blog / SEO", desc: "Artigos sobre culinária, receitas e tendências food." },
+      { icon: "📸", name: "Reels & Stories", desc: "Bastidores de cozinha, pratos e promoções." },
+      { icon: "✍️", name: "Legendas", desc: "Descrições irresistíveis de pratos e cardápios." },
+      { icon: "🧵", name: "Carrossel", desc: "Receitas passo a passo e apresentação de menu." },
+      { icon: "📧", name: "Email Marketing", desc: "Newsletters de promoções e eventos do restaurante." },
+      { icon: "📝", name: "Blog / SEO", desc: "Artigos sobre culinária e tendências gastronômicas." },
     ],
   },
   {
     id: 5,
     emoji: "🏠",
-    name: "Imóveis & Real Estate",
+    name: "Corretores & Imobiliárias",
     tag: "Imóveis",
-    desc: "Para corretores, imobiliárias e investidores que vendem imóveis pelas redes.",
-    gemUrl: null,
+    desc: "Para corretores e imobiliárias que vendem imóveis pelas redes sociais.",
+    gemUrl: "https://gemini.google.com/gem/15CqkVKec62Q-aZJBrsCwEMJuOGG0XnBJ?usp=sharing",
     contentTypes: [
       { icon: "📸", name: "Reels & Stories", desc: "Tours virtuais e apresentação de imóveis em vídeo." },
       { icon: "✍️", name: "Legendas", desc: "Copies persuasivos para anúncios e lançamentos." },
@@ -81,86 +81,11 @@ const AGENTS = [
   },
   {
     id: 6,
-    emoji: "👗",
-    name: "Moda & Estilo",
-    tag: "Moda",
-    desc: "Para stylists, lojas de roupa, influencers de moda e personal shoppers.",
-    gemUrl: null,
-    contentTypes: [
-      { icon: "📸", name: "Reels & Stories", desc: "Looks do dia, trends e dicas de estilo em vídeo." },
-      { icon: "✍️", name: "Legendas", desc: "Copies que vendem looks e geram desejo de compra." },
-      { icon: "🧵", name: "Carrossel", desc: "Guias de estilo, combinações e tendências da estação." },
-      { icon: "📧", name: "Email Marketing", desc: "Emails de lançamento de coleções e promoções." },
-      { icon: "📝", name: "Blog / SEO", desc: "Artigos sobre tendências, styling e moda consciente." },
-    ],
-  },
-  {
-    id: 7,
-    emoji: "💻",
-    name: "Tech & Tecnologia",
-    tag: "Tech",
-    desc: "Para devs, empresas de software, criadores tech e influencers de tecnologia.",
-    gemUrl: null,
-    contentTypes: [
-      { icon: "📸", name: "Reels & Stories", desc: "Demos de produto, tutoriais e novidades tech." },
-      { icon: "✍️", name: "Legendas", desc: "Copies técnicos e acessíveis para o público tech." },
-      { icon: "🧵", name: "Carrossel", desc: "Explicações de conceitos, ferramentas e tendências." },
-      { icon: "📧", name: "Email Marketing", desc: "Sequências de onboarding e newsletters de tech." },
-      { icon: "📝", name: "Blog / SEO", desc: "Artigos sobre IA, dev, gadgets e inovação." },
-    ],
-  },
-  {
-    id: 8,
-    emoji: "🎓",
-    name: "Educação & Infoprodutos",
-    tag: "Educação",
-    desc: "Para professores, criadores de cursos, mentores e especialistas em EAD.",
-    gemUrl: null,
-    contentTypes: [
-      { icon: "📸", name: "Reels & Stories", desc: "Aulas rápidas, depoimentos e bastidores de cursos." },
-      { icon: "✍️", name: "Legendas", desc: "Copies de lançamento e autoridade no nicho." },
-      { icon: "🧵", name: "Carrossel", desc: "Conteúdo educativo e teasers de módulos." },
-      { icon: "📧", name: "Email Marketing", desc: "Sequências de lançamento e nutrição de leads." },
-      { icon: "📝", name: "Blog / SEO", desc: "Artigos que atraem alunos e constroem autoridade." },
-    ],
-  },
-  {
-    id: 9,
-    emoji: "✈️",
-    name: "Viagem & Turismo",
-    tag: "Turismo",
-    desc: "Para agências de viagem, influencers de travel e empreendedores do turismo.",
-    gemUrl: null,
-    contentTypes: [
-      { icon: "📸", name: "Reels & Stories", desc: "Roteiros de destinos e experiências de viagem." },
-      { icon: "✍️", name: "Legendas", desc: "Copies que despertam o desejo de viajar." },
-      { icon: "🧵", name: "Carrossel", desc: "Guias de destinos, dicas e roteiros de viagem." },
-      { icon: "📧", name: "Email Marketing", desc: "Pacotes, ofertas e newsletters de turismo." },
-      { icon: "📝", name: "Blog / SEO", desc: "Artigos sobre destinos, dicas e experiências." },
-    ],
-  },
-  {
-    id: 10,
-    emoji: "🐾",
-    name: "Pet & Veterinário",
-    tag: "Pet",
-    desc: "Para veterinários, pet shops, criadores e influencers do mundo animal.",
-    gemUrl: null,
-    contentTypes: [
-      { icon: "📸", name: "Reels & Stories", desc: "Dicas de cuidado e momentos fofos com pets." },
-      { icon: "✍️", name: "Legendas", desc: "Copies que engajam amantes de animais." },
-      { icon: "🧵", name: "Carrossel", desc: "Guias de saúde, alimentação e comportamento animal." },
-      { icon: "📧", name: "Email Marketing", desc: "Newsletters de produtos e dicas para tutores." },
-      { icon: "📝", name: "Blog / SEO", desc: "Artigos sobre raças, cuidados e saúde pet." },
-    ],
-  },
-  {
-    id: 11,
     emoji: "💄",
-    name: "Beleza & Estética",
+    name: "Estética & Beleza",
     tag: "Beleza",
     desc: "Para salões, esteticistas, maquiadores e marcas de beleza e cosméticos.",
-    gemUrl: null,
+    gemUrl: "https://gemini.google.com/gem/1k2xu-0uszOotLQBIEZeZRl11FBzktSe9?usp=sharing",
     contentTypes: [
       { icon: "📸", name: "Reels & Stories", desc: "Tutoriais de maquiagem, skincare e procedimentos." },
       { icon: "✍️", name: "Legendas", desc: "Copies de serviços, promoções e antes/depois." },
@@ -170,12 +95,12 @@ const AGENTS = [
     ],
   },
   {
-    id: 12,
+    id: 7,
     emoji: "⚖️",
-    name: "Jurídico & Advocacia",
+    name: "Advogados & Jurídico",
     tag: "Jurídico",
     desc: "Para advogados e escritórios que querem gerar autoridade e atrair clientes online.",
-    gemUrl: null,
+    gemUrl: "https://gemini.google.com/gem/1ucp35ru20wFlB4JKfMttQfLKB115SlUu?usp=sharing",
     contentTypes: [
       { icon: "📸", name: "Reels & Stories", desc: "Esclarecimentos jurídicos rápidos em vídeo." },
       { icon: "✍️", name: "Legendas", desc: "Copies educativos que constroem autoridade." },
@@ -185,12 +110,12 @@ const AGENTS = [
     ],
   },
   {
-    id: 13,
+    id: 8,
     emoji: "🏗️",
-    name: "Construção & Arquitetura",
+    name: "Arquitetura & Reformas",
     tag: "Construção",
-    desc: "Para arquitetos, construtoras, designers de interiores e lojas de materiais.",
-    gemUrl: null,
+    desc: "Para arquitetos, designers de interiores e empresas de reforma.",
+    gemUrl: "https://gemini.google.com/gem/1hWPE8hbFz2A5opInqJ23gg8Tvq_TKE0A?usp=sharing",
     contentTypes: [
       { icon: "📸", name: "Reels & Stories", desc: "Obras em andamento, antes/depois e projetos." },
       { icon: "✍️", name: "Legendas", desc: "Copies técnicos e inspiradores de projetos." },
@@ -200,33 +125,109 @@ const AGENTS = [
     ],
   },
   {
-    id: 14,
-    emoji: "🎵",
-    name: "Música & Entretenimento",
-    tag: "Música",
-    desc: "Para artistas, produtores musicais, DJs e criadores de conteúdo de entretenimento.",
-    gemUrl: null,
+    id: 9,
+    emoji: "🔧",
+    name: "Reformas & Construção",
+    tag: "Reformas",
+    desc: "Para construtoras, empreiteiras e empresas de reforma e manutenção.",
+    gemUrl: "https://gemini.google.com/gem/1V1cyxLhNVGmjEL2WULpEEbTrC5SYQgS6?usp=sharing",
     contentTypes: [
-      { icon: "📸", name: "Reels & Stories", desc: "Clipes, bastidores e lançamentos musicais." },
-      { icon: "✍️", name: "Legendas", desc: "Copies que geram hype e engajamento de fãs." },
-      { icon: "🧵", name: "Carrossel", desc: "Curiosidades, letras e história musical." },
-      { icon: "📧", name: "Email Marketing", desc: "Shows, lançamentos e newsletters para fãs." },
-      { icon: "📝", name: "Blog / SEO", desc: "Artigos sobre música, artistas e tendências." },
+      { icon: "📸", name: "Reels & Stories", desc: "Antes/depois de obras e serviços em vídeo." },
+      { icon: "✍️", name: "Legendas", desc: "Copies de captação e apresentação de serviços." },
+      { icon: "🧵", name: "Carrossel", desc: "Portfólio de obras e dicas de reforma." },
+      { icon: "📧", name: "Email Marketing", desc: "Orçamentos e follow-up de clientes." },
+      { icon: "📝", name: "Blog / SEO", desc: "Artigos sobre reforma, materiais e manutenção." },
+    ],
+  },
+  {
+    id: 10,
+    emoji: "📊",
+    name: "Gestores de Tráfego",
+    tag: "Marketing",
+    desc: "Para gestores de tráfego e agências de marketing digital.",
+    gemUrl: "https://gemini.google.com/gem/14r9RIURclojLX81FzeKpJK5XViE9zDz0?usp=sharing",
+    contentTypes: [
+      { icon: "📸", name: "Reels & Stories", desc: "Cases, resultados e bastidores de campanhas." },
+      { icon: "✍️", name: "Legendas", desc: "Copies que geram autoridade no marketing digital." },
+      { icon: "🧵", name: "Carrossel", desc: "Estratégias de tráfego e dicas de anúncios." },
+      { icon: "📧", name: "Email Marketing", desc: "Sequências de prospecção e apresentação de serviços." },
+      { icon: "📝", name: "Blog / SEO", desc: "Artigos sobre tráfego pago e marketing digital." },
+    ],
+  },
+  {
+    id: 11,
+    emoji: "🩺",
+    name: "Médicos",
+    tag: "Saúde",
+    desc: "Para médicos e clínicas que querem construir autoridade e atrair pacientes online.",
+    // FIX: link corrigido (era fQgiWp9W45r, correto é fQGp9W45r)
+    gemUrl: "https://gemini.google.com/gem/1GbGubB4sVRpu5DyOgbqD4s9fQGp9W45r?usp=sharing",
+    contentTypes: [
+      { icon: "📸", name: "Reels & Stories", desc: "Educação em saúde e dicas médicas em vídeo." },
+      { icon: "✍️", name: "Legendas", desc: "Copies educativos que constroem autoridade médica." },
+      { icon: "🧵", name: "Carrossel", desc: "Informações de saúde, prevenção e tratamentos." },
+      { icon: "📧", name: "Email Marketing", desc: "Emails de captação e relacionamento com pacientes." },
+      { icon: "📝", name: "Blog / SEO", desc: "Artigos médicos de autoridade e prevenção." },
+    ],
+  },
+  {
+    id: 12,
+    emoji: "✂️",
+    name: "Barbearias",
+    tag: "Barbearia",
+    desc: "Para barbearias e barbeiros que querem lotar a agenda pelas redes sociais.",
+    gemUrl: "https://gemini.google.com/gem/1Z7HrNDcEgoYgfILQ_W_XF5CXCIvMG5JA?usp=sharing",
+    contentTypes: [
+      { icon: "📸", name: "Reels & Stories", desc: "Transformações, técnicas e bastidores da barbearia." },
+      { icon: "✍️", name: "Legendas", desc: "Copies que geram agendamentos e fidelizam clientes." },
+      { icon: "🧵", name: "Carrossel", desc: "Tendências de corte, barba e cuidados masculinos." },
+      { icon: "📧", name: "Email Marketing", desc: "Promoções, agendamento e fidelização de clientes." },
+      { icon: "📝", name: "Blog / SEO", desc: "Artigos sobre cuidados masculinos e tendências." },
+    ],
+  },
+  {
+    id: 13,
+    emoji: "🔢",
+    name: "Contadores",
+    tag: "Contabilidade",
+    desc: "Para contadores e escritórios de contabilidade que querem atrair empresas online.",
+    gemUrl: "https://gemini.google.com/gem/1YM0_DV2LVlDxYMaJR7x4L90ZrnLMmtEC?usp=sharing",
+    contentTypes: [
+      { icon: "📸", name: "Reels & Stories", desc: "Dicas fiscais e contábeis em formato de vídeo." },
+      { icon: "✍️", name: "Legendas", desc: "Copies educativos sobre impostos e gestão financeira." },
+      { icon: "🧵", name: "Carrossel", desc: "Obrigações fiscais, dicas e calendário contábil." },
+      { icon: "📧", name: "Email Marketing", desc: "Newsletters contábeis e captação de empresas." },
+      { icon: "📝", name: "Blog / SEO", desc: "Artigos sobre contabilidade, impostos e negócios." },
+    ],
+  },
+  {
+    id: 14,
+    emoji: "🦷",
+    name: "Dentistas",
+    tag: "Odontologia",
+    desc: "Para dentistas e clínicas odontológicas que querem atrair pacientes online.",
+    gemUrl: "https://gemini.google.com/gem/1oLoeXqVJ2p527xijkqBvmcNlgdx7H5JP?usp=sharing",
+    contentTypes: [
+      { icon: "📸", name: "Reels & Stories", desc: "Antes/depois, procedimentos e dicas de saúde bucal." },
+      { icon: "✍️", name: "Legendas", desc: "Copies que geram confiança e agendamentos." },
+      { icon: "🧵", name: "Carrossel", desc: "Cuidados com a boca, tratamentos e prevenção." },
+      { icon: "📧", name: "Email Marketing", desc: "Lembretes de consulta e captação de pacientes." },
+      { icon: "📝", name: "Blog / SEO", desc: "Artigos sobre saúde bucal e procedimentos." },
     ],
   },
   {
     id: 15,
-    emoji: "🛒",
-    name: "E-commerce & Varejo",
-    tag: "E-commerce",
-    desc: "Para lojas virtuais, dropshippers e empreendedores do comércio digital.",
-    gemUrl: null,
+    emoji: "🌍",
+    name: "Idiomas",
+    tag: "Educação",
+    desc: "Para escolas de idiomas, professores e criadores de conteúdo de línguas.",
+    gemUrl: "https://gemini.google.com/gem/1uA3E0-pFQsx-mSfPIW3rXNZeltokKOD1?usp=sharing",
     contentTypes: [
-      { icon: "📸", name: "Reels & Stories", desc: "Apresentação de produtos, unboxing e promoções." },
-      { icon: "✍️", name: "Legendas", desc: "Copies de venda persuasivos com gatilhos mentais." },
-      { icon: "🧵", name: "Carrossel", desc: "Catálogos, comparativos e benefícios de produtos." },
-      { icon: "📧", name: "Email Marketing", desc: "Sequências de carrinho abandonado e promoções." },
-      { icon: "📝", name: "Blog / SEO", desc: "Artigos que atraem compradores orgânicos." },
+      { icon: "📸", name: "Reels & Stories", desc: "Dicas rápidas de idiomas e expressões em vídeo." },
+      { icon: "✍️", name: "Legendas", desc: "Copies que engajam estudantes de línguas." },
+      { icon: "🧵", name: "Carrossel", desc: "Vocabulário, gramática e dicas de fluência." },
+      { icon: "📧", name: "Email Marketing", desc: "Sequências de matrícula e nutrição de alunos." },
+      { icon: "📝", name: "Blog / SEO", desc: "Artigos sobre aprendizado de idiomas e dicas." },
     ],
   },
 ];
@@ -238,7 +239,7 @@ let activeAgentId = null;
 (function injectStyles() {
   const style = document.createElement("style");
   style.textContent = `
-    /* ── Cursor global — funciona em QUALQUER tela ── */
+    /* ── Cursor global ── */
     #globalCursor {
       position: fixed;
       width: 8px; height: 8px;
@@ -301,14 +302,12 @@ let activeAgentId = null;
       100% { transform: rotate(0deg); }
     }
 
-    /* Cada emoji recebe uma animação diferente por posição */
     .agent-item:nth-child(5n+1) .agent-item-emoji { animation: emojiFloat  3.5s ease-in-out infinite; }
     .agent-item:nth-child(5n+2) .agent-item-emoji { animation: emojiWiggle 4.0s ease-in-out infinite; }
     .agent-item:nth-child(5n+3) .agent-item-emoji { animation: emojiBounce 3.8s ease-in-out infinite; }
     .agent-item:nth-child(5n+4) .agent-item-emoji { animation: emojiPulse  4.2s ease-in-out infinite; }
     .agent-item:nth-child(5n+5) .agent-item-emoji { animation: emojiSpin   4.5s ease-in-out infinite; }
 
-    /* Atrasos escalonados para evitar sincronismo */
     .agent-item:nth-child(1)  .agent-item-emoji { animation-delay: 0.00s; }
     .agent-item:nth-child(2)  .agent-item-emoji { animation-delay: 0.30s; }
     .agent-item:nth-child(3)  .agent-item-emoji { animation-delay: 0.60s; }
@@ -325,7 +324,6 @@ let activeAgentId = null;
     .agent-item:nth-child(14) .agent-item-emoji { animation-delay: 0.35s; }
     .agent-item:nth-child(15) .agent-item-emoji { animation-delay: 0.65s; }
 
-    /* Pausa ao hover — o scale do CSS já cuida do feedback visual */
     .agent-item:hover .agent-item-emoji {
       animation-play-state: paused;
     }
@@ -348,13 +346,23 @@ let activeAgentId = null;
     .content-type-card:hover .ct-icon {
       transform: scale(1.4) rotate(-6deg);
     }
+
+    /* ── Animação slideUp para o agent-detail ── */
+    @keyframes slideUpDetail {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .agent-detail.animate {
+      animation: slideUpDetail 0.4s cubic-bezier(0.22,1,0.36,1) both;
+    }
   `;
   document.head.appendChild(style);
 })();
 
-// ─── CURSOR GLOBAL ────────────────────────────────────────────────────────────
-// Injetado direto no body — independente de qual tela está visível
+// ─── CURSOR GLOBAL (único sistema) ───────────────────────────────────────────
 (function initGlobalCursor() {
+  // Não inicializa cursor em mobile/touch
+  if (window.matchMedia("(hover: none)").matches) return;
   if (document.getElementById("globalCursor")) return;
 
   const dot  = document.createElement("div");
@@ -417,13 +425,12 @@ function handleLogin() {
 
       const box = document.querySelector(".login-box");
       box.style.animation = "none";
-      box.offsetHeight;
+      box.offsetHeight; // force reflow
       box.style.animation = "shake 0.4s ease";
     }
   }, 600);
 }
 
-// Enter nos campos de login
 document.addEventListener("DOMContentLoaded", () => {
   ["loginUser", "loginPass"].forEach(id => {
     document.getElementById(id)?.addEventListener("keydown", e => {
@@ -451,7 +458,7 @@ function handleLogout() {
     loginScreen.style.display   = "flex";
     loginScreen.style.opacity   = "0";
     loginScreen.style.transform = "scale(0.97)";
-    loginScreen.offsetHeight;
+    loginScreen.offsetHeight; // force reflow
     loginScreen.style.transition = "opacity 0.4s ease, transform 0.4s ease";
     loginScreen.style.opacity    = "1";
     loginScreen.style.transform  = "scale(1)";
@@ -470,8 +477,8 @@ function renderSidebar() {
 
   AGENTS.forEach((agent, i) => {
     const item = document.createElement("div");
-    item.className          = "agent-item";
-    item.dataset.id         = agent.id;
+    item.className            = "agent-item";
+    item.dataset.id           = agent.id;
     item.style.animationDelay = `${i * 0.04}s`;
     item.innerHTML = `
       <div class="agent-item-emoji">${agent.emoji}</div>
@@ -501,30 +508,17 @@ function showAgentDetail(agent) {
 
   welcome.style.display = "none";
 
-  const ctaHTML = agent.gemUrl
-    ? `
-      <div class="detail-cta-wrap">
-        <div class="detail-cta-text">
-          <h4>Pronto para criar conteúdo?</h4>
-          <p>Acesse o agente especializado em ${agent.name} e gere conteúdo ilimitado com IA.</p>
-        </div>
-        <a href="${agent.gemUrl}" target="_blank" rel="noopener" class="detail-cta-btn">
-          Acessar Agente
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        </a>
-      </div>`
-    : `
-      <div class="detail-cta-wrap">
-        <div class="detail-cta-text">
-          <span class="placeholder-badge">EM BREVE</span>
-          <h4>Agente sendo preparado</h4>
-          <p>O GEM especializado em ${agent.name} está sendo configurado. Em breve estará disponível aqui.</p>
-        </div>
-        <span class="detail-cta-btn" style="opacity:0.4;pointer-events:none;cursor:default;">
-          Em Breve
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
-        </span>
-      </div>`;
+  const ctaHTML = `
+    <div class="detail-cta-wrap">
+      <div class="detail-cta-text">
+        <h4>Pronto para criar conteúdo?</h4>
+        <p>Acesse o agente especializado em ${agent.name} e gere conteúdo ilimitado com IA.</p>
+      </div>
+      <a href="${agent.gemUrl}" target="_blank" rel="noopener" class="detail-cta-btn">
+        Acessar C.I.A
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>`;
 
   const contentTypesHTML = agent.contentTypes.map(ct => `
     <div class="content-type-card">
@@ -534,7 +528,9 @@ function showAgentDetail(agent) {
     </div>
   `).join("");
 
-  detail.style.display = "none";
+  // FIX: animação re-disparada corretamente via classe
+  detail.style.display = "block";
+  detail.classList.remove("animate");
   detail.innerHTML = `
     <div class="detail-header">
       <div class="detail-emoji">${agent.emoji}</div>
@@ -553,9 +549,7 @@ function showAgentDetail(agent) {
     </div>
   `;
 
-  // Re-trigger animação slideUp
-  detail.style.display = "block";
-  detail.style.animation = "none";
+  // Força reflow e adiciona classe para disparar animação
   detail.offsetHeight;
-  detail.style.animation = "";
+  detail.classList.add("animate");
 }
