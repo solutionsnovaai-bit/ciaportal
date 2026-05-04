@@ -37,37 +37,6 @@ body {
 }
 
 /* =============================================
-   CUSTOM CURSOR
-   ============================================= */
-.cursor {
-  position: fixed;
-  width: 8px; height: 8px;
-  background: var(--primary);
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 9999;
-  transform: translate(-50%, -50%);
-  transition: transform 0.1s, width 0.2s, height 0.2s, background 0.2s;
-  mix-blend-mode: difference;
-}
-.cursor-ring {
-  position: fixed;
-  width: 36px; height: 36px;
-  border: 1.5px solid rgba(0,255,136,0.5);
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 9998;
-  transform: translate(-50%, -50%);
-  transition: transform 0.12s ease, width 0.3s, height 0.3s, border-color 0.3s;
-}
-body:has(a:hover) .cursor-ring,
-body:has(button:hover) .cursor-ring,
-body:has(.agent-item:hover) .cursor-ring {
-  width: 54px; height: 54px;
-  border-color: var(--primary);
-}
-
-/* =============================================
    LOGIN SCREEN
    ============================================= */
 .login-screen {
@@ -488,6 +457,8 @@ body:has(.agent-item:hover) .cursor-ring {
   align-items: center; justify-content: center;
   text-align: center;
   gap: 16px;
+  /* FIX: position relative para o pulse absolute não vazar */
+  position: relative;
 }
 
 .welcome-pulse {
@@ -496,12 +467,15 @@ body:has(.agent-item:hover) .cursor-ring {
   background: rgba(0,255,136,0.05);
   border: 1px solid rgba(0,255,136,0.15);
   position: absolute;
+  /* FIX: centralizado corretamente dentro do pai */
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
   animation: pulse 3s ease-in-out infinite;
   pointer-events: none;
 }
 @keyframes pulse {
-  0%, 100% { transform: scale(1); opacity: 0.5; }
-  50% { transform: scale(1.4); opacity: 0; }
+  0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.5; }
+  50%       { transform: translate(-50%, -50%) scale(1.4); opacity: 0; }
 }
 
 .welcome-icon {
@@ -700,17 +674,6 @@ body:has(.agent-item:hover) .cursor-ring {
 }
 .detail-cta-btn:active { transform: translateY(0); }
 
-.placeholder-badge {
-  font-family: var(--font-m);
-  font-size: 9px; letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--gold);
-  background: rgba(255,184,0,0.08);
-  border: 1px solid rgba(255,184,0,0.2);
-  padding: 3px 9px; border-radius: 4px;
-  display: inline-block; margin-bottom: 8px;
-}
-
 /* =============================================
    SCROLLBAR
    ============================================= */
@@ -724,7 +687,6 @@ body:has(.agent-item:hover) .cursor-ring {
    ============================================= */
 @media (max-width: 768px) {
   body { cursor: auto; }
-  .cursor, .cursor-ring { display: none; }
 
   .header { padding: 12px 16px; gap: 10px; }
   .header-badges { display: none; }
@@ -753,18 +715,29 @@ body:has(.agent-item:hover) .cursor-ring {
     min-width: 90px;
     text-align: center;
     align-items: center;
+    cursor: auto;
   }
   .agent-item::before { display: none; }
   .agent-item.active { background: rgba(0,255,136,0.08); }
+
+  /* FIX: evita quebra de texto no mobile */
+  .agent-item-name {
+    white-space: nowrap;
+    font-size: 11px;
+  }
 
   .main { padding: 20px 16px; }
 
   .detail-header { flex-direction: column; }
   .detail-title { font-size: 24px; }
   .detail-cta-wrap { flex-direction: column; }
-  .detail-cta-btn { width: 100%; justify-content: center; }
+  .detail-cta-btn { width: 100%; justify-content: center; cursor: auto; }
 
   .welcome-title { font-size: 26px; }
   .welcome-stats { gap: 16px; }
   .stat-num { font-size: 22px; }
+
+  .login-btn { cursor: auto; }
+  .field-wrap input { cursor: auto; }
+  .logout-btn { cursor: auto; }
 }
