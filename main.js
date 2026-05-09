@@ -10,7 +10,11 @@ const AGENTS = [
     name: "Fitness & Personal",
     tag: "Fitness",
     desc: "Conteúdo especializado para personal trainers e marcas fitness.",
-    gemUrl: "https://gemini.google.com/gem/1a5p9Ihz8KRrPz8nm3PZWjylUg3UcmqGm?usp=sharing",
+    gems: {
+      carrossel: "https://gemini.google.com/gem/1a5p9Ihz8KRrPz8nm3PZWjylUg3UcmqGm?usp=sharing",
+      feed:      "https://gemini.google.com/gem/1OmD3fbBfF-d0nORmz3VTfJJ4OWuJ_Uu0?usp=sharing",
+      stories:   "https://gemini.google.com/gem/12iGRc3Vor13BuG09OxWr0xBe3ZOgmYpj?usp=sharing",
+    },
     contentTypes: [
       { icon: "📸", name: "Reels & Stories", desc: "Roteiros prontos para vídeos curtos de treino." },
       { icon: "✍️", name: "Legendas", desc: "Copies engajadores para posts de fitness." },
@@ -25,7 +29,11 @@ const AGENTS = [
     name: "Nutricionistas",
     tag: "Nutrição",
     desc: "Agente para nutricionistas que querem crescer nas redes e atrair pacientes.",
-    gemUrl: "https://gemini.google.com/gem/1rDtwK_Tvn4z7p5_mLOxm3rt3JaGRVaG-?usp=sharing",
+    gems: {
+      carrossel: "https://gemini.google.com/gem/1rDtwK_Tvn4z7p5_mLOxm3rt3JaGRVaG-?usp=sharing",
+      feed:      "https://gemini.google.com/gem/13fTf-f-_ctxlm_wO-qr26COLySN5QdAA?usp=sharing",
+      stories:   "https://gemini.google.com/gem/1cJI5hFtXSnrRdAGxXgdilioEw2EZ7_gp?usp=sharing",
+    },
     contentTypes: [
       { icon: "📸", name: "Reels & Stories", desc: "Dicas rápidas de alimentação e receitas saudáveis." },
       { icon: "✍️", name: "Legendas", desc: "Copies educativos que geram autoridade." },
@@ -40,7 +48,11 @@ const AGENTS = [
     name: "Psicólogos",
     tag: "Psicologia",
     desc: "Para psicólogos e terapeutas que querem gerar autoridade e atrair clientes online.",
-    gemUrl: "https://gemini.google.com/gem/1dRIzP0GodxLF2jJFx_iLtVwb6o3p7TSK?usp=sharing",
+    gems: {
+      carrossel: "https://gemini.google.com/gem/1dRIzP0GodxLF2jJFx_iLtVwb6o3p7TSK?usp=sharing",
+      feed:      "https://gemini.google.com/gem/1gv7zHY-u1WIrTvd5w57_BtiGypG-eFPV?usp=sharing",
+      stories:   "https://gemini.google.com/gem/1iEcb0yXImdUzkXsmeyMRJxdHK3zrxlg1?usp=sharing",
+    },
     contentTypes: [
       { icon: "📸", name: "Reels & Stories", desc: "Reflexões e dicas de saúde mental em vídeo." },
       { icon: "✍️", name: "Legendas", desc: "Textos que geram conexão emocional e autoridade." },
@@ -55,7 +67,11 @@ const AGENTS = [
     name: "Restaurantes",
     tag: "Gastronomia",
     desc: "Agente para restaurantes, chefs e food businesses que vendem pela internet.",
-    gemUrl: "https://gemini.google.com/gem/17bTmMW2dZuxyFDaW36zc4O72VthswdSN?usp=sharing",
+    gems: {
+      carrossel: "https://gemini.google.com/gem/17bTmMW2dZuxyFDaW36zc4O72VthswdSN?usp=sharing",
+      feed:      "https://gemini.google.com/gem/1ziu6UUgfDkD5cn_ifP3ui6JPEnS348mQ?usp=sharing",
+      stories:   "https://gemini.google.com/gem/1B7jsx9lycZ8176Pavd0fm-BSAJjTNtJJ?usp=sharing",
+    },
     contentTypes: [
       { icon: "📸", name: "Reels & Stories", desc: "Bastidores de cozinha, pratos e promoções." },
       { icon: "✍️", name: "Legendas", desc: "Descrições irresistíveis de pratos e cardápios." },
@@ -70,7 +86,11 @@ const AGENTS = [
     name: "Corretores & Imobiliárias",
     tag: "Imóveis",
     desc: "Para corretores e imobiliárias que vendem imóveis pelas redes sociais.",
-    gemUrl: "https://gemini.google.com/gem/15CqkVKec62Q-aZJBrsCwEMJuOGG0XnBJ?usp=sharing",
+    gems: {
+      carrossel: "https://gemini.google.com/gem/15CqkVKec62Q-aZJBrsCwEMJuOGG0XnBJ?usp=sharing",
+      feed:      "https://gemini.google.com/gem/1lyvNI4gqPan9shwX_QNw90h-uRg_cyKe?usp=sharing",
+      stories:   "https://gemini.google.com/gem/1BP5JBXjWwoCH05Nf60ZDerS8X9O-BRYD?usp=sharing",
+    },
     contentTypes: [
       { icon: "📸", name: "Reels & Stories", desc: "Tours virtuais e apresentação de imóveis em vídeo." },
       { icon: "✍️", name: "Legendas", desc: "Copies persuasivos para anúncios e lançamentos." },
@@ -85,7 +105,11 @@ const AGENTS = [
     name: "Estética & Beleza",
     tag: "Beleza",
     desc: "Para salões, esteticistas, maquiadores e marcas de beleza e cosméticos.",
-    gemUrl: "https://gemini.google.com/gem/1k2xu-0uszOotLQBIEZeZRl11FBzktSe9?usp=sharing",
+    gems: {
+      carrossel: "https://gemini.google.com/gem/1k2xu-0uszOotLQBIEZeZRl11FBzktSe9?usp=sharing",
+      feed:      "https://gemini.google.com/gem/1kfSnufKak2fbsv0bQ0E5SAILoD6b_dpp?usp=sharing",
+      stories:   "https://gemini.google.com/gem/1_x735faL9SNwpmAd0YA74shBzmnYk7ZD?usp=sharing",
+    },
     contentTypes: [
       { icon: "📸", name: "Reels & Stories", desc: "Tutoriais de maquiagem, skincare e procedimentos." },
       { icon: "✍️", name: "Legendas", desc: "Copies de serviços, promoções e antes/depois." },
@@ -100,7 +124,11 @@ const AGENTS = [
     name: "Advogados & Jurídico",
     tag: "Jurídico",
     desc: "Para advogados e escritórios que querem gerar autoridade e atrair clientes online.",
-    gemUrl: "https://gemini.google.com/gem/1ucp35ru20wFlB4JKfMttQfLKB115SlUu?usp=sharing",
+    gems: {
+      carrossel: "https://gemini.google.com/gem/1ucp35ru20wFlB4JKfMttQfLKB115SlUu?usp=sharing",
+      feed:      "https://gemini.google.com/gem/1WpHNUeRrlLtIlqtQPxMPPpgGD3QTKdEY?usp=sharing",
+      stories:   "https://gemini.google.com/gem/19yWzWC2ZOFJ1FMPJTcLcpCXI5jpZ3GnJ?usp=sharing",
+    },
     contentTypes: [
       { icon: "📸", name: "Reels & Stories", desc: "Esclarecimentos jurídicos rápidos em vídeo." },
       { icon: "✍️", name: "Legendas", desc: "Copies educativos que constroem autoridade." },
@@ -115,7 +143,11 @@ const AGENTS = [
     name: "Arquitetura & Reformas",
     tag: "Construção",
     desc: "Para arquitetos, designers de interiores e empresas de reforma.",
-    gemUrl: "https://gemini.google.com/gem/1hWPE8hbFz2A5opInqJ23gg8Tvq_TKE0A?usp=sharing",
+    gems: {
+      carrossel: "https://gemini.google.com/gem/1hWPE8hbFz2A5opInqJ23gg8Tvq_TKE0A?usp=sharing",
+      feed:      "https://gemini.google.com/gem/1rrBjgLaKVNR1GLxyPX3EkXRjCyi8srBU?usp=sharing",
+      stories:   "https://gemini.google.com/gem/1gK06K02jNV34sHcharhb-BdY7QsOKAHw?usp=sharing",
+    },
     contentTypes: [
       { icon: "📸", name: "Reels & Stories", desc: "Obras em andamento, antes/depois e projetos." },
       { icon: "✍️", name: "Legendas", desc: "Copies técnicos e inspiradores de projetos." },
@@ -130,7 +162,11 @@ const AGENTS = [
     name: "Reformas & Construção",
     tag: "Reformas",
     desc: "Para construtoras, empreiteiras e empresas de reforma e manutenção.",
-    gemUrl: "https://gemini.google.com/gem/1V1cyxLhNVGmjEL2WULpEEbTrC5SYQgS6?usp=sharing",
+    gems: {
+      carrossel: "https://gemini.google.com/gem/1V1cyxLhNVGmjEL2WULpEEbTrC5SYQgS6?usp=sharing",
+      feed:      "https://gemini.google.com/gem/1sWdq17OfcmEre-nMF6daBHIXUwHdv398?usp=sharing",
+      stories:   "https://gemini.google.com/gem/1i1nnexZ8F0phFWhQCyYO2noayuwNKmaq?usp=sharing",
+    },
     contentTypes: [
       { icon: "📸", name: "Reels & Stories", desc: "Antes/depois de obras e serviços em vídeo." },
       { icon: "✍️", name: "Legendas", desc: "Copies de captação e apresentação de serviços." },
@@ -145,7 +181,11 @@ const AGENTS = [
     name: "Gestores de Tráfego",
     tag: "Marketing",
     desc: "Para gestores de tráfego e agências de marketing digital.",
-    gemUrl: "https://gemini.google.com/gem/14r9RIURclojLX81FzeKpJK5XViE9zDz0?usp=sharing",
+    gems: {
+      carrossel: "https://gemini.google.com/gem/14r9RIURclojLX81FzeKpJK5XViE9zDz0?usp=sharing",
+      feed:      "https://gemini.google.com/gem/1JgXlSWSGEbY95ZsmICzdcrslk0Paiheb?usp=sharing",
+      stories:   "https://gemini.google.com/gem/1s17TmwCTgXd6IuKYluxYhlMVFNxdGsA9?usp=sharing",
+    },
     contentTypes: [
       { icon: "📸", name: "Reels & Stories", desc: "Cases, resultados e bastidores de campanhas." },
       { icon: "✍️", name: "Legendas", desc: "Copies que geram autoridade no marketing digital." },
@@ -160,8 +200,11 @@ const AGENTS = [
     name: "Médicos",
     tag: "Saúde",
     desc: "Para médicos e clínicas que querem construir autoridade e atrair pacientes online.",
-    // FIX: link corrigido (era fQgiWp9W45r, correto é fQGp9W45r)
-    gemUrl: "https://gemini.google.com/gem/1GbGubB4sVRpu5DyOgbqD4s9fQGp9W45r?usp=sharing",
+    gems: {
+      carrossel: "https://gemini.google.com/gem/1GbGubB4sVRpu5DyOgbqD4s9fQGp9W45r?usp=sharing",
+      feed:      "https://gemini.google.com/gem/1dxsqyJt1OdHe6vDoUUtABrD4mYaYfLaX?usp=sharing",
+      stories:   "https://gemini.google.com/gem/1VgEnYU-D88SyiJMUXv-qX_3N2U20Ii6f?usp=sharing",
+    },
     contentTypes: [
       { icon: "📸", name: "Reels & Stories", desc: "Educação em saúde e dicas médicas em vídeo." },
       { icon: "✍️", name: "Legendas", desc: "Copies educativos que constroem autoridade médica." },
@@ -176,7 +219,11 @@ const AGENTS = [
     name: "Barbearias",
     tag: "Barbearia",
     desc: "Para barbearias e barbeiros que querem lotar a agenda pelas redes sociais.",
-    gemUrl: "https://gemini.google.com/gem/1Z7HrNDcEgoYgfILQ_W_XF5CXCIvMG5JA?usp=sharing",
+    gems: {
+      carrossel: "https://gemini.google.com/gem/1Z7HrNDcEgoYgfILQ_W_XF5CXCIvMG5JA?usp=sharing",
+      feed:      "https://gemini.google.com/gem/1_hMjvCQn-nTTN3fd9iXygyyzrTk7Hrdd?usp=sharing",
+      stories:   "https://gemini.google.com/gem/1kPIcw99tyFkkQ-DWMjbF260hfq5onx1B?usp=sharing",
+    },
     contentTypes: [
       { icon: "📸", name: "Reels & Stories", desc: "Transformações, técnicas e bastidores da barbearia." },
       { icon: "✍️", name: "Legendas", desc: "Copies que geram agendamentos e fidelizam clientes." },
@@ -191,7 +238,11 @@ const AGENTS = [
     name: "Contadores",
     tag: "Contabilidade",
     desc: "Para contadores e escritórios de contabilidade que querem atrair empresas online.",
-    gemUrl: "https://gemini.google.com/gem/1YM0_DV2LVlDxYMaJR7x4L90ZrnLMmtEC?usp=sharing",
+    gems: {
+      carrossel: "https://gemini.google.com/gem/1YM0_DV2LVlDxYMaJR7x4L90ZrnLMmtEC?usp=sharing",
+      feed:      "https://gemini.google.com/gem/1fChi8yDCofryxVZ9plkese2OKh4v8StV?usp=sharing",
+      stories:   "https://gemini.google.com/gem/1eyCbhQTjOqQ1pZJAajmTMC1fNSeCh9Ti?usp=sharing",
+    },
     contentTypes: [
       { icon: "📸", name: "Reels & Stories", desc: "Dicas fiscais e contábeis em formato de vídeo." },
       { icon: "✍️", name: "Legendas", desc: "Copies educativos sobre impostos e gestão financeira." },
@@ -206,7 +257,11 @@ const AGENTS = [
     name: "Dentistas",
     tag: "Odontologia",
     desc: "Para dentistas e clínicas odontológicas que querem atrair pacientes online.",
-    gemUrl: "https://gemini.google.com/gem/1oLoeXqVJ2p527xijkqBvmcNlgdx7H5JP?usp=sharing",
+    gems: {
+      carrossel: "https://gemini.google.com/gem/1oLoeXqVJ2p527xijkqBvmcNlgdx7H5JP?usp=sharing",
+      feed:      "https://gemini.google.com/gem/1fzcACVtfILTbs9I0N9HQ_YixKzt7_IZX?usp=sharing",
+      stories:   "https://gemini.google.com/gem/1vBDJaDTi2hhfTzqQKCF8p83trbwHSJxh?usp=sharing",
+    },
     contentTypes: [
       { icon: "📸", name: "Reels & Stories", desc: "Antes/depois, procedimentos e dicas de saúde bucal." },
       { icon: "✍️", name: "Legendas", desc: "Copies que geram confiança e agendamentos." },
@@ -221,7 +276,11 @@ const AGENTS = [
     name: "Idiomas",
     tag: "Educação",
     desc: "Para escolas de idiomas, professores e criadores de conteúdo de línguas.",
-    gemUrl: "https://gemini.google.com/gem/1uA3E0-pFQsx-mSfPIW3rXNZeltokKOD1?usp=sharing",
+    gems: {
+      carrossel: "https://gemini.google.com/gem/1uA3E0-pFQsx-mSfPIW3rXNZeltokKOD1?usp=sharing",
+      feed:      "https://gemini.google.com/gem/1VEshRF4Bxe3VZcl-CFSfKbgGm_96K8kj?usp=sharing",
+      stories:   "https://gemini.google.com/gem/1imZmjHwjRGhFUgk5d0zeiaExosGXJQJn?usp=sharing",
+    },
     contentTypes: [
       { icon: "📸", name: "Reels & Stories", desc: "Dicas rápidas de idiomas e expressões em vídeo." },
       { icon: "✍️", name: "Legendas", desc: "Copies que engajam estudantes de línguas." },
@@ -355,6 +414,53 @@ let activeAgentId = null;
     .agent-detail.animate {
       animation: slideUpDetail 0.4s cubic-bezier(0.22,1,0.36,1) both;
     }
+
+    /* ── Botões dos 3 Gems ── */
+    .gem-buttons {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 8px;
+    }
+    .gem-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 20px;
+      border-radius: 10px;
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      letter-spacing: 0.04em;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+      cursor: pointer;
+      flex: 1;
+      justify-content: center;
+      min-width: 130px;
+    }
+    .gem-btn:hover {
+      transform: translateY(-2px);
+      opacity: 0.9;
+    }
+    .gem-btn-carrossel {
+      background: linear-gradient(135deg, #7C3AED, #5B21B6);
+      color: #fff;
+      box-shadow: 0 4px 16px rgba(124,58,237,0.35);
+    }
+    .gem-btn-feed {
+      background: linear-gradient(135deg, #0EA5E9, #0369A1);
+      color: #fff;
+      box-shadow: 0 4px 16px rgba(14,165,233,0.35);
+    }
+    .gem-btn-stories {
+      background: linear-gradient(135deg, #F59E0B, #D97706);
+      color: #fff;
+      box-shadow: 0 4px 16px rgba(245,158,11,0.35);
+    }
+    .gem-btn svg {
+      flex-shrink: 0;
+    }
   `;
   document.head.appendChild(style);
 })();
@@ -363,6 +469,7 @@ let activeAgentId = null;
 (function initGlobalCursor() {
   // Não inicializa cursor em mobile/touch
   if (window.matchMedia("(hover: none)").matches) return;
+
   if (document.getElementById("globalCursor")) return;
 
   const dot  = document.createElement("div");
@@ -425,7 +532,7 @@ function handleLogin() {
 
       const box = document.querySelector(".login-box");
       box.style.animation = "none";
-      box.offsetHeight; // force reflow
+      box.offsetHeight;
       box.style.animation = "shake 0.4s ease";
     }
   }, 600);
@@ -458,7 +565,7 @@ function handleLogout() {
     loginScreen.style.display   = "flex";
     loginScreen.style.opacity   = "0";
     loginScreen.style.transform = "scale(0.97)";
-    loginScreen.offsetHeight; // force reflow
+    loginScreen.offsetHeight;
     loginScreen.style.transition = "opacity 0.4s ease, transform 0.4s ease";
     loginScreen.style.opacity    = "1";
     loginScreen.style.transform  = "scale(1)";
@@ -512,12 +619,22 @@ function showAgentDetail(agent) {
     <div class="detail-cta-wrap">
       <div class="detail-cta-text">
         <h4>Pronto para criar conteúdo?</h4>
-        <p>Acesse o agente especializado em ${agent.name} e gere conteúdo ilimitado com IA.</p>
+        <p>Escolha o tipo de conteúdo e acesse o agente especializado em ${agent.name}.</p>
       </div>
-      <a href="${agent.gemUrl}" target="_blank" rel="noopener" class="detail-cta-btn">
-        Acessar C.I.A
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-      </a>
+      <div class="gem-buttons">
+        <a href="${agent.gems.carrossel}" target="_blank" rel="noopener" class="gem-btn gem-btn-carrossel">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          Carrossel
+        </a>
+        <a href="${agent.gems.feed}" target="_blank" rel="noopener" class="gem-btn gem-btn-feed">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+          Feed
+        </a>
+        <a href="${agent.gems.stories}" target="_blank" rel="noopener" class="gem-btn gem-btn-stories">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="7" y="2" width="10" height="20" rx="2"/></svg>
+          Stories
+        </a>
+      </div>
     </div>`;
 
   const contentTypesHTML = agent.contentTypes.map(ct => `
@@ -528,7 +645,6 @@ function showAgentDetail(agent) {
     </div>
   `).join("");
 
-  // FIX: animação re-disparada corretamente via classe
   detail.style.display = "block";
   detail.classList.remove("animate");
   detail.innerHTML = `
@@ -549,7 +665,6 @@ function showAgentDetail(agent) {
     </div>
   `;
 
-  // Força reflow e adiciona classe para disparar animação
   detail.offsetHeight;
   detail.classList.add("animate");
 }
